@@ -1,0 +1,67 @@
+{
+  "name": "cra-typescript-lib-configured-template",
+  "version": "0.1.0",
+  "description": "CRA Typescript template configured with react, redux, redux thunk ,React Router, material-ui, tailwindcss, styled-components, axios",
+  "author": {
+    "name": "Madan Kumar",
+    "email": "kumarmadan.j@gmail.com",
+    "url": "https://github.com/jmadankumar"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@types/axios": "^0.14.0",
+    "@types/classnames": "^2.2.10",
+    "axios": "^0.19.2",
+    "classnames": "^2.2.6",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.3",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^5.1.1",
+    "tailwindcss": "^1.6.2"
+  },
+  "scripts": {
+    "build:css": "tailwindcss build ./src/styles/tailwind.css -o ./src/styles/main.css",
+    "start": "npm run build:css && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@types/jest": "^24.0.0",
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.9.0",
+    "@types/react-dom": "^16.9.0",
+    "@types/react-redux": "^7.1.9",
+    "@types/react-router-dom": "^5.1.5",
+    "@types/redux": "^3.6.0",
+    "@types/styled-components": "^5.1.2",
+    "typescript": "~3.7.2"
+  },
+  "repository": {
+    "url": "https://github.com/jmadankumar/cra-typescript-template",
+    "type": "git"
+  }
+}
